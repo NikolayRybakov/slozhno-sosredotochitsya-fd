@@ -1,0 +1,18 @@
+@import url(./__title/content-section__title.css);
+@import url(./__subtitle/content-section__subtitle.css);
+@import url(./__description/content-section__descpirtion.css);
+@import url(./__why/content-section__why.css);
+@import url(./__block/content-section__block.css);
+@import url(./__concentration/content-section__concentration.css);
+@import url(./__advice/content-section__advice.css);
+
+
+.content-section {  
+  line-height: var(--main-line-height);
+  font-family: var(--main-font-family);
+  padding-block-start: 50px;
+}
+
+.content-section:first-child {
+  padding-block-start: 0;
+}

@@ -1,0 +1,15 @@
+@import url(./_active/header__theme-menu-button_active.css);
+
+.header__theme-menu-button {
+  background: transparent;
+  color: var(--content-color-title);
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  text-transform: lowercase;
+  border: none;
+  letter-spacing: 2px;
+}
+
+.header__theme-menu-button:hover {
+  color: green;
+} 

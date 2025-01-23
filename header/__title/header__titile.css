@@ -1,0 +1,22 @@
+.header__title {
+  color: var(--title-color);
+  font-family: var(--main-font-family), sans-serif;
+  font-weight: var(--title-font-weight);
+  line-height: var(--title-line-height);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  grid-column: span 2;
+  align-self: end;
+}
+
+@media (min-width: 668px) and (max-width: 1203px) {
+  .header__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    align-self: center;
+  }
+}
+
+@media (min-width: 1024px){
+  .header__title {
+    grid-column: span 3;
+  }
+}

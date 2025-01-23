@@ -1,0 +1,6 @@
+.footer__title {
+  color: var(--title-color);
+  font-family: var(--main-font-family), sans-serif;
+  line-height: var(--main-line-height);
+  font-size: var(--title-font-size);
+}

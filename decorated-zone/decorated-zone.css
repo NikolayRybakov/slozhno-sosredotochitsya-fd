@@ -1,0 +1,36 @@
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-inline-end: 1px solid var(--background-title-decor);
+  border-block-start: 1px solid var(--background-title-decor);
+  block-size: 25px;
+  inline-size: 25px;
+}
+
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  border-inline-start: 1px solid var(--background-title-decor);
+  border-block-end: 1px solid var(--background-title-decor);
+  block-size: 25px;
+  inline-size: 25px;
+}
+
+@media (min-width: 668px) and (max-width: 1203px) {
+  .decorated-zone::before {
+    top: 20px;
+    right: 20px;
+  }
+  .decorated-zone::after {
+    bottom: 20px;
+    left: 20px;
+  }
+}

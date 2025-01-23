@@ -1,0 +1,22 @@
+.content-section__subtitle {
+  margin-block-start: var(--content-margin-subtitle-start);
+  margin-block-end: var(--content-margin-subtitle-end);
+  font-weight: 400;
+  font-size: var(--main-font-size);
+}
+
+.content-section__advice > .content-section__block > .content-section__subtitle:first-child {
+  font-weight: 700;
+}
+
+@media (min-width: 668px) and (max-width: 1203px) {
+  .content-section__subtitle:first-child {
+    margin-block-start: 0;
+  }
+}
+
+@media (min-width: 1024px){
+  .content-section__subtitle:first-child {
+    margin-block-start: 0;
+  }    
+}

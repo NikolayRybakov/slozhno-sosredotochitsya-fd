@@ -1,0 +1,12 @@
+@import url(./__title/footer__title.css);
+
+.footer {
+  padding-inline: 10px;
+  margin: 0 auto;
+  max-inline-size: 375px;
+  min-block-size: 100vh;
+  display: grid;
+  grid-template-columns: min-content;
+  justify-content: center;
+  align-content: center;
+}

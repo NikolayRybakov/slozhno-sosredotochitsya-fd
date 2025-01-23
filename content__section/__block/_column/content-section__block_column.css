@@ -1,0 +1,5 @@
+@media (min-width: 1024px){
+  .content-section__block_column {
+    grid-row: 2;
+  }
+} 

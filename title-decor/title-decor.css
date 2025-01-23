@@ -1,0 +1,4 @@
+.title-decor {
+  background-color: var(--background-title-decor);
+  color: var(--color-title-decor);
+}

@@ -1,0 +1,30 @@
+.rec {
+  font-size: var(--main-font-size);
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  color: var(--background-title-decor);
+  justify-self: end;
+  margin-inline-end: 9px;
+  block-size: 26px;
+}
+
+.rec::after {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  block-size: 9px;
+  inline-size: 9px;
+  background-color: var(--background-title-decor);
+  margin-inline-start: 10px;
+}
+
+@media (min-width: 1024px){
+  .rec {
+    grid-column-start: 3;
+  }
+}
+
