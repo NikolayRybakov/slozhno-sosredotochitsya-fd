@@ -5,7 +5,7 @@
   margin-block: 40px;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 780px) and (max-width: 1023px) {
   .main {
     padding-inline: 20px;
     min-width: 768px;

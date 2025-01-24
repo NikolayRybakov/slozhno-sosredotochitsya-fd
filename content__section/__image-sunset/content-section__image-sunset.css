@@ -1,0 +1,10 @@
+.content-section__image-sunset {
+  min-inline-size: 100%;
+}
+
+@media (width > 780px) {
+  .content-section__image-sunset {
+    max-inline-size: 100%;
+    min-block-size: 100%;
+  }
+}

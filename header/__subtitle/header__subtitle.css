@@ -8,9 +8,10 @@
   max-block-size: 117px;
   max-inline-size: 355px;
   font-weight: var(--title-font-weight);
+
 }
 
-@media (min-width: 668px) and (max-width: 1023px) {
+@media (min-width: 780px) and (max-width: 1023px) {
   .header__subtitle {
     grid-column: 2;
     max-inline-size: 364px;

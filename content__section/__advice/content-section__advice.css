@@ -1,4 +1,4 @@
-@media (min-width: 668px) and (max-width: 1203px) {
+@media (min-width: 780px) and (max-width: 1203px) {
   .content-section__advice {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

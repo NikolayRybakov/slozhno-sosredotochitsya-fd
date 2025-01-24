@@ -1,0 +1,11 @@
+.content-section__image-books {
+  min-inline-size: 100%;
+}
+
+@media (width >= 780px) {
+  .content-section__image-books {
+    min-block-size: 100%;
+    max-inline-size: 100%;
+    object-fit: cover;
+  }
+}

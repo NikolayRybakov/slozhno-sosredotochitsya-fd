@@ -4,6 +4,14 @@
   font-size: var(--main-font-size);
 }
 
-.content__section-descpirtion span {
-  
+.content-section__descpirtion span {
+  color: var(--content-color-title);
+}
+
+.content-section__descpirtion span:hover {
+  text-decoration: underline;
+}
+
+.content-section__descpirtion span:focus {
+  border: 1px solid var(--main-color);
 }

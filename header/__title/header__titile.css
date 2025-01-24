@@ -6,9 +6,10 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   grid-column: span 2;
   align-self: end;
+  text-shadow: 4px 4px 0 var(--background-title-decor);
 }
 
-@media (min-width: 668px) and (max-width: 1203px) {
+@media (min-width: 780px) and (max-width: 1203px) {
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     align-self: center;

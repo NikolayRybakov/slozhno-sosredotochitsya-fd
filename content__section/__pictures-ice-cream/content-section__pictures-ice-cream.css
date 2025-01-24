@@ -1,0 +1,7 @@
+@media (width >= 780px) {
+  .content-section__pictures-ice-cream {
+    grid-column: 3;
+    grid-row: 1 / 3;
+  }
+}
+

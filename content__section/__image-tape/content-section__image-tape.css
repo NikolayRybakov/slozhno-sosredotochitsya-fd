@@ -1,0 +1,11 @@
+.content-section__image-tape {
+  min-inline-size: 100%; 
+}
+
+@media (width >= 780px) {
+  .content-section__image-tape {
+    max-inline-size: 100%;
+    min-block-size: 100%;
+    object-fit: cover;
+  }
+}

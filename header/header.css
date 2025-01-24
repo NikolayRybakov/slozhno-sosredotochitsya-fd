@@ -17,11 +17,11 @@
   min-block-size: 668px;
 }
 
-@media (min-width: 668px) and (max-width: 1203px) {
+@media (min-width: 780px) and (max-width: 1203px) {
   .header {
     padding-inline: 20px;
     padding-block: 20px;
-    min-inline-size: 668px;
+    min-inline-size: 768px;
     max-inline-size: 1023px;
   }
 }

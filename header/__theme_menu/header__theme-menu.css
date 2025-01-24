@@ -5,7 +5,7 @@
   justify-self: end;
 }
 
-@media (min-width: 668px) and (max-width: 1203px) {
+@media (min-width: 780px) and (max-width: 1203px) {
   .header__theme-menu {
     align-self: end;
   }

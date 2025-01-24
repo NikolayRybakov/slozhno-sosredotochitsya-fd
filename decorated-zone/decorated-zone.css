@@ -24,7 +24,7 @@
   inline-size: 25px;
 }
 
-@media (min-width: 668px) and (max-width: 1203px) {
+@media (min-width: 780px) and (max-width: 1203px) {
   .decorated-zone::before {
     top: 20px;
     right: 20px;

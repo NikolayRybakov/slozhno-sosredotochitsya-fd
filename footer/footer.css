@@ -10,3 +10,18 @@
   justify-content: center;
   align-content: center;
 }
+
+@media (min-width: 780px) and (max-width: 1203px) {
+  .footer {
+    padding-inline: 20px;
+    min-inline-size: 768px;
+    max-inline-size: 1023px;
+  }
+}
+
+@media (min-width: 1024px){
+  .footer {
+    min-inline-size: 1024px;
+    padding-inline: 20px;
+  }
+}

@@ -1,0 +1,5 @@
+@media (width >= 780px) {
+  .content-section__pictures-sunset {
+    grid-column: 1 / 3;
+  }
+}

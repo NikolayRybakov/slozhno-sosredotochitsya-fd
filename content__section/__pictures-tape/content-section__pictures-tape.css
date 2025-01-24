@@ -1,0 +1,6 @@
+@media (width >= 780px) {
+  .content-section__pictures-tape {
+    grid-row: 2 / 4;
+    min-height: 100%;
+  }
+}

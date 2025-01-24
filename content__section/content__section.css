@@ -5,6 +5,18 @@
 @import url(./__block/content-section__block.css);
 @import url(./__concentration/content-section__concentration.css);
 @import url(./__advice/content-section__advice.css);
+@import url(./__pictures/content-section__pictures.css);
+@import url(./__image-books/content-section__image-books.css);
+@import url(./__image-ice-cream/content-section__image-ice-cream.css);
+@import url(./__image-street/content-section__image-street.css);
+@import url(./__image-sunset/content-section__image-sunset.css);
+@import url(./__image-tape/content-section__image-tape.css);
+@import url(./__pictures-books/content-section__pictures-books.css);
+@import url(./__pictures-ice-cream/content-section__pictures-ice-cream.css);
+@import url(./__pictures-street/content-section__pictures-street.css);
+@import url(./__pictures-sunset/content-section__pictures-sunset.css);
+@import url(./__pictures-tape/content-section__pictures-tape.css);
+
 
 
 .content-section {  

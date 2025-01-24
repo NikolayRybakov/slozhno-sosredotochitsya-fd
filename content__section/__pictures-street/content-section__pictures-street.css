@@ -1,0 +1,5 @@
+@media (width >= 780px) {
+  .content-section__pictures-street {
+    grid-column: 2 / 4;
+  }
+}

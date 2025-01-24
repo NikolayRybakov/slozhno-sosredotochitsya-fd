@@ -1,0 +1,11 @@
+.content-section__image-street {
+  min-inline-size: 100%;
+}
+
+@media (width >= 780px) {
+  .content-section__image-street {
+    min-block-size: 100%;
+    max-inline-size: 100%;
+    object-fit: cover;
+  }
+}

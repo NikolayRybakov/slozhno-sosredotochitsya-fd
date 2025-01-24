@@ -9,7 +9,7 @@
   font-weight: 700;
 }
 
-@media (min-width: 668px) and (max-width: 1203px) {
+@media (min-width: 780px) and (max-width: 1203px) {
   .content-section__subtitle:first-child {
     margin-block-start: 0;
   }
