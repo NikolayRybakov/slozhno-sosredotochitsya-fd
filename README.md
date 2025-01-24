@@ -1,1 +1,1 @@
-https://github.com/NikolayRybakov/NikolayRybakov-NikolayRybakov-slozhno-sosredotochitsya-fd
+https://github.com/NikolayRybakov/slozhno-sosredotochitsya-fd
