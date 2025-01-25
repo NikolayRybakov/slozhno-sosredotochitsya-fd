@@ -9,14 +9,21 @@
   font-weight: 700;
 }
 
-@media (min-width: 780px) and (max-width: 1203px) {
-  .content-section__subtitle:first-child {
+.content-section_padding-s > .content-section__subtitle {
+  font-weight: 700;
+}
+
+@media (min-width: 780px) and (max-width: 1023px) {
+  .content-section__subtitle_margin {
     margin-block-start: 0;
   }
 }
 
-@media (min-width: 1024px){
-  .content-section__subtitle:first-child {
+@media (width >= 1024px){
+  .content-section__subtitle_margin {
     margin-block-start: 0;
-  }    
+  }
+  .content-section__subtitle_margin-min {
+    margin-block-start: 0;
+  }
 }

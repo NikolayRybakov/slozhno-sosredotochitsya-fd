@@ -1,15 +1,22 @@
 @media (min-width: 780px) and (max-width: 1203px) {
   .content-section__advice {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
+    padding-block-start: 80px;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 1023px) {
+  .content-section__advice {
+    gap: 30px;
   }
 }
 
 @media (min-width: 1024px){
   .content-section__advice {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
   }
 } 

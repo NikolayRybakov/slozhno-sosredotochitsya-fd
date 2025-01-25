@@ -5,7 +5,7 @@
   line-height: var(--title-line-height);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   grid-column: span 2;
-  align-self: end;
+  align-self: center;
   text-shadow: 4px 4px 0 var(--background-title-decor);
 }
 
@@ -13,11 +13,14 @@
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     align-self: center;
+    margin-inline-start: -8px;
   }
 }
 
 @media (min-width: 1024px){
   .header__title {
     grid-column: span 3;
+    margin-inline-start: -20px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }

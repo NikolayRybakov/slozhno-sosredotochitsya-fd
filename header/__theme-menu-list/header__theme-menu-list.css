@@ -1,7 +1,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
   margin-block-start: 8px;
   margin-inline-end: 6px;
 }
@@ -9,5 +9,7 @@
 @media (min-width: 1024px){
   .header__theme-menu-list {
     flex-direction: row;
+    margin-block-start: 0;
+    gap: 18px;
   }
 }

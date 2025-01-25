@@ -8,18 +8,23 @@
   max-block-size: 117px;
   max-inline-size: 355px;
   font-weight: var(--title-font-weight);
-
+  margin-bottom: 15px;
 }
 
 @media (min-width: 780px) and (max-width: 1023px) {
   .header__subtitle {
     grid-column: 2;
     max-inline-size: 364px;
+    margin-inline-start: 6px;
+    margin-block-end: 115px;
   }
 }
 
 @media (min-width: 1024px){
   .header__subtitle {
-    grid-column: 3;
+    justify-self: end;
+    grid-column: 2 / 4;
+    max-inline-size: 491px;
+    margin-block-end: 58px;
   }
 }

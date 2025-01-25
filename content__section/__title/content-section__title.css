@@ -4,3 +4,9 @@
   font-weight: var(--title-font-weight);
   font-family: var(--main-font-family);
 }
+
+@media (min-width: 780px) and (max-width: 1023px) {
+  .content-section__title {
+    max-inline-size: 236px;
+  }
+}

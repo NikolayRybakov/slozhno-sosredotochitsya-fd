@@ -1,8 +1,14 @@
+.content-section__pictures {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 @media (width >= 780px) {
   .content-section__pictures {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, max-content);
     gap: 20px;
   }
 }

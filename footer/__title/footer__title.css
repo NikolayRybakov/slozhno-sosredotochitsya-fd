@@ -2,6 +2,6 @@
   color: var(--title-color);
   font-family: var(--main-font-family), sans-serif;
   line-height: var(--main-line-height);
-  font-size: var(--title-font-size);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 

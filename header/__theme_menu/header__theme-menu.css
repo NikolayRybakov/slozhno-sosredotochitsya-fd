@@ -7,7 +7,8 @@
 
 @media (min-width: 780px) and (max-width: 1203px) {
   .header__theme-menu {
-    align-self: end;
+    align-self: center;
+    margin-block-start: 100px;
   }
 }
 
@@ -15,5 +16,6 @@
   .header__theme-menu {
     grid-column: 2;
     align-self: start;
+    margin-block-start: 0;
   }
 }
