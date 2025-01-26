@@ -24,6 +24,7 @@
 
 @media (min-width: 1024px){
   .footer {
+    margin-block-start: 50px;
     min-inline-size: 1024px;
     padding-inline: 20px;
     min-block-size: 768px;

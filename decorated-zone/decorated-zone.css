@@ -34,3 +34,14 @@
     left: 20px;
   }
 }
+
+@media (min-width: 1024px){
+  .decorated-zone::before {
+    top: 20px;
+    right: 20px;
+  }
+  .decorated-zone::after {
+    bottom: 20px;
+    left: 20px;
+  }
+} 

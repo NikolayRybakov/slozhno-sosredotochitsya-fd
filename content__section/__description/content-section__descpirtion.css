@@ -2,16 +2,18 @@
   color: var(--main-color);
   line-height: var(--main-line-height);
   font-size: var(--main-font-size);
+  cursor: pointer;
 }
 
-.content-section__descpirtion span {
+.content-section__descpirtion-link {
   color: var(--content-color-title);
 }
 
-.content-section__descpirtion span:hover {
+.content-section__descpirtion-link:hover {
   text-decoration: underline;
 }
 
-.content-section__descpirtion span:focus {
+.content-section__descpirtion-link:focus {
+  outline: 0;
   border: 1px solid var(--main-color);
 }

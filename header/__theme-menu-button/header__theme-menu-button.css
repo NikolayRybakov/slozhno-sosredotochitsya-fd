@@ -7,13 +7,20 @@
   font-size: var(--main-font-size);
   text-transform: lowercase;
   border: none;
+  cursor: pointer;
+}
+
+.header__theme-menu-button_type_dark {
+  border: 1px solid var(--background-title-decor);
+  padding-inline: 13px;
 }
 
 .header__theme-menu-button:hover {
   border: 1px solid #FF007066;
-} 
+}
 
 .header__theme-menu-button:focus {
+  outline: 0;
   border-block-end: 1px solid var(--background-title-decor);
   border-inline: none;
   border-block-start: none;
